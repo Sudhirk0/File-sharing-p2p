@@ -30,14 +30,11 @@ The application uses TCP socket programming and file streams to ensure reliable 
 #Project Structure
 
 
-p2p-file-sharing/
-│
-├── App.java
-├── PeerServer.java
-├── PeerClient.java
-├── FileManager.java
-│
-├── shared/        # Files to be shared
-│   └── test.txt
-│
-└── downloads/     # Downloaded files
+p2p-file-sharing/                                                                                       
+├── App.java                                                                                            
+├── PeerServer.java                                                                                     
+├── PeerClient.java                                                                                     
+├── FileManager.java                                                                                    
+├── shared/           # Files to be shared                                                              
+│   └── test.txt                                                                                        
+└── downloads/          # Downloaded files                                                                     
